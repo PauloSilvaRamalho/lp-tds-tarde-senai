@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+        <a href="#s1">Primeira</a>
+        <a href="#s2">Segunda</a>
+        <a href="#s3">Terceira</a>
+        <a href="#s4">Quarta</a>
+    </nav>
+    <main>
+        <section id="s1">
+            <div class="img-side">
+                <img src="./images/bambam.jpg" alt="Perfil">
+            </div>
+            <div class="text-side">
+                <h1>Kleber Bambam</h1>
+                <h2>Lorem ipsum</h2>
+            </div>
+        </section>
+            
+        <section id="s2">
+            <div class="card">
+                <img src="./images/img1.jpg" alt="">
+                <h2>Card 1</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+             <div class="card">
+                <img src="./images/img2.jpg" alt="">
+                <h2>Card 2</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+            <div class="card">
+                <img src="./images/img3.jpg" alt="">
+                <h2>Card 3</h2>
+                <p>Lorem Ipsum</p>
+            </div>
+        </section>
+
+        <section id="s3">
+           
+        </section>
+
+        <section id="s4">
+           <h2>Contato</h2>
+           <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Insira seu nome">
+                <label for="assunto">Mensagem</label>
+                <textarea id="assunto" placeholder="Insira sua mensagem"></textarea>
+                <button class="btn" onclick="enviar()">Enviar</button>
+           </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.github.com" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
